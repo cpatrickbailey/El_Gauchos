@@ -1,0 +1,147 @@
+body {
+  background: #000;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.video-container {
+  position: relative;
+}
+video {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+  padding-left: 20px;
+  overflow-x: hidden;
+}
+.overlay-desc {
+  background: rgba(0,0,0,0);
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'FontdinerdotcomSparkly';
+  font-size: 208px;
+  text-shadow: 4px 4px 8px black, 0 0 45px #F72191, 0 0 10px #F716ED;
+  color: white;
+  padding-left: 195px;
+  padding-top: 120px;
+  display: flex;
+}
+
+
+h3 {
+  text-align: center;
+  font-family: 'FontdinerdotcomSparkly';
+  font-size: 90px;
+  text-shadow: 4px 4px 8px black, 0 0 45px #F72191, 0 0 10px #F716ED;
+  color: white;
+  padding-left: 110px;
+  padding-top: 50px;
+  padding-bottom: 300px;
+  display: flex;
+}
+
+h3::after {
+  margin-bottom: 200px;
+}
+
+.container-fluid-events {
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0)), url(club.jpg);
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'FontdinerdotcomLoungy';
+  font-size: 115px;
+  text-shadow: 4px 4px 8px black, 0 0 45px #F9C2D1, 0 0 10px #FF67AE;
+  color: #160C74;
+  padding-top: 50px;
+}
+
+.img-fluid-home {
+  max-width: auto;
+  height: auto;
+  float: right;
+  padding-left: 10px, 15px, 30px, 85px;
+  padding-top: 15px;
+  padding-right: 35px;
+  padding-bottom: 105px;
+}
+
+.img-fluid-events {
+  max-width: 100%;
+  height: 100%;
+  padding-right: 600px;
+  padding-bottom: 40px;
+}
+
+.container {
+ width: 100%;
+ margin: 30px auto;
+ overflow: hidden;
+}
+
+.galleryItem {
+ color: white;
+ font: 9px/1.5 Verdana, Helvetica, sans-serif;
+ float: left;
+ width: 21%;
+ margin:  2% 2% 50px 2%;
+}
+
+.galleryItem h6 {
+ text-transform: uppercase;
+}
+
+.galleryItem img {
+ width: 200px;
+ height: 200px;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ border-radius: 5px;
+}
+
+.container-fluid-about {
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0)), url(cool.jpg);
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: 100%;
+  padding-bottom: 50px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+p {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 30px;
+  color: white;
+  padding-top: 90px;
+}
+
+.container-fluid-contact {
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0)), url(Jazzcombo.jpg);
+  background-size: cover;
+  height: auto;
+  width: auto;
+}
+
+
+body {
+  overflow-x: hidden;
+}
