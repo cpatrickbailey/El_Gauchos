@@ -5,6 +5,40 @@ body {
   overflow-x: hidden;
 }
 
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  z-index: 9999;
+}
+
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+
+.content {
+  padding: 16px;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
 .video-container {
   position: relative;
 }
@@ -137,10 +171,86 @@ p {
 .container-fluid-contact {
   background-image: linear-gradient(black, rgba(0, 0, 0, 0)), url(Jazzcombo.jpg);
   background-size: cover;
-  height: auto;
-  width: auto;
+  height: 100%;
+  width: 100%;
 }
 
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #2353F8;
+  color: white;
+  padding: 12px 40px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #140677;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+iframe {
+  padding-left: 80px;
+  padding-top: 25px;
+}
+
+.address {
+  float: left;
+  padding-left: 60px;
+  padding-bottom: 150px;
+  font-size: 40px;
+  text-shadow: 4px 4px 8px black, 0 0 45px #F9C2D1, 0 0 10px #FF67AE;
+  color: #160C74;
+}
+
+.container-fluid-social {
+  background-color: #7C7C7C;
+
+}
+
+ion-icon {
+  font-size: 54px;
+  float: right;
+  padding-right: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 body {
   overflow-x: hidden;
